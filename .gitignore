@@ -1,12 +1,12 @@
 ## Any un needed file any where in the project file structure.
-*.class
+#*.class
 ## target folder at the top level of the project structue and paths and contents underneath it
-## target/
-## target/*
+target/
+target/*
 ## target folder at any level of the project structue
-## **/target
-## /target
-##.idea/
-##idea/*
-##**/.idea
-##/idea
+**/target
+/target
+.idea/
+idea/*
+**/.idea
+/idea

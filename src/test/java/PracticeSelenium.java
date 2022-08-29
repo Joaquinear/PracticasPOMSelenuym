@@ -36,7 +36,7 @@ public class PracticeSelenium {
                 //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
                 driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
                 j++;
-                if(j == 2){
+                if(j == productWaiting.length){
                     break;
                 }
             }

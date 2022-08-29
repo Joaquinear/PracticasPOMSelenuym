@@ -34,11 +34,7 @@ public class PracticeSelenium {
                     //System.out.println("esto es la intereacion"+inte);
                 }
                 //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
-                if(i == 0){
-                    driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
-                }else {
-                    driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i-1).click();
-                }
+                driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
                 j++;
                 if(j == 2){
                     break;
